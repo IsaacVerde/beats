@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beats 24h</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button class="mode-toggle" onclick="toggleDarkMode()">
+        <i class="fas fa-moon"></i> Modo Escuro
+    </button>
+    <div class="container text-center d-flex flex-column justify-content-center align-items-center vh-100">
+        <h1 class="display-6"><img src="./imgs/logo.png" height="125" width="125" alt="logo" class="logo"></h1>
+        <h1 class="display-4">Beats 24h 🔥</h1>
+        <h2 class="display-3">Aproveite 🎶</h2>
+        <!-- Código de incorporação da playlist do YouTube com redimensionamento e centralização -->
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe id="youtubePlayer" class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLsrWIRwPFNHBSH_VvO2TJF2d50OW2DegQ&autoplay=1&loop=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>

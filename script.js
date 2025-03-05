@@ -19,7 +19,8 @@ function onYouTubeIframeAPIReady() {
             listType: 'playlist',
             list: 'PLsrWIRwPFNHBSH_VvO2TJF2d50OW2DegQ',
             autoplay: 1,
-            loop: 1
+            loop: 1,
+            playlist: 'PLsrWIRwPFNHBSH_VvO2TJF2d50OW2DegQ' // Certifique-se de adicionar isto
         }
     });
 }
